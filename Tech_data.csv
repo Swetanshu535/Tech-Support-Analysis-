@@ -1,0 +1,30 @@
+Conversation_ID,Customer_Issue,Tech_Response,Resolution_Time,Issue_Category,Issue_Status
+CONV-0001,Cannot connect to Wi-Fi,Clear cache and remove unnecessary programs.,92,Software,Pending
+CONV-0002,Software installation failure,Reinstall the printer drivers.,76,Account,Pending
+CONV-0003,Cannot connect to Wi-Fi,Clear cache and remove unnecessary programs.,50,Network,Resolved
+CONV-0004,Forgot password,Reset your password using the link provided.,97,Performance,Pending
+CONV-0005,Software installation failure,Follow the software installation guide.,110,Performance,Pending
+CONV-0006,Unable to access email,Follow the software installation guide.,22,Performance,Resolved after follow-up
+CONV-0007,Unable to access email,Run a system diagnostic tool.,12,Hardware,Resolved after follow-up
+CONV-0008,Unable to access email,Reinstall the printer drivers.,10,Hardware,Escalated
+CONV-0009,Blue screen error,Run a system diagnostic tool.,120,Software,Pending
+CONV-0010,Printer not responding,Reinstall the printer drivers.,94,Hardware,Pending
+CONV-0011,Software installation failure,Verify your email settings.,45,Account,Escalated
+CONV-0012,Blue screen error,Reset your password using the link provided.,9,Network,Resolved
+CONV-0013,Slow system performance,Clear cache and remove unnecessary programs.,79,Account,Pending
+CONV-0014,Blue screen error,Restart your router.,76,Software,Resolved after follow-up
+CONV-0015,Blue screen error,Reset your password using the link provided.,35,Software,Escalated
+CONV-0016,Slow system performance,Restart your router.,48,Hardware,Resolved
+CONV-0017,Forgot password,Reinstall the printer drivers.,69,Network,Resolved after follow-up
+CONV-0018,Unable to access email,Run a system diagnostic tool.,91,Software,Resolved after follow-up
+CONV-0019,Printer not responding,Restart your router.,30,Account,Resolved after follow-up
+CONV-0020,Software installation failure,Reset your password using the link provided.,97,Performance,Escalated
+CONV-0021,Unable to access email,Verify your email settings.,99,Software,Resolved after follow-up
+CONV-0022,Cannot connect to Wi-Fi,Verify your email settings.,15,Network,Escalated
+CONV-0023,Forgot password,Run a system diagnostic tool.,93,Hardware,Pending
+CONV-0024,Printer not responding,Run a system diagnostic tool.,54,Account,Resolved after follow-up
+CONV-0025,Blue screen error,Clear cache and remove unnecessary programs.,58,Network,Pending
+CONV-0026,Slow system performance,Run a system diagnostic tool.,99,Performance,Resolved
+CONV-0027,Software installation failure,Follow the software installation guide.,13,Software,Pending
+CONV-0028,Forgot password,Restart your router.,60,Software,Resolved after follow-up
+CONV-0029,Unable to access email,Clear cache and remove unnecessary programs.,23,Software,Resolved after follow-up

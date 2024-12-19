@@ -1,0 +1,31 @@
+create database tech_support_analysis;
+use tech_support_analysis;
+
+select * from tech_data;
+
+
+-- Show the sum of resolution time 
+select sum(Resolution_time) as total_time
+from tech_data;
+-- if the customer issue is cannot connect to Wifi then show the text the 
+-- customer needs to make changes and show the text other changes needed
+ select Customer_Issue,if(Customer_issue="Cannot connect to Wi-Fi","Make changes on their wifi","Make other changes")
+ from tech_data;
+-- Show the technrepsonses that starts with C 
+select Tech_response
+from Tech_data
+where Tech_response like "C%";
+
+-- Show the resolution time between 70 and 90 and its consecutive Customer issue
+select Resolution_Time,Customer_Issue
+from Tech_data
+where Resolution_time between 70 and 90;
+-- Show the rank of the customer issue by ordering the data 
+select *,rank() over (Order by Customer_Issue) 
+from tech_data;
+
+-- Add the row number according to the Conversation ID 
+select Conversation_ID, row_number() over (Order by Conversation_ID)
+from tech_data;
+
+
